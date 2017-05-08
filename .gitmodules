@@ -1,3 +1,6 @@
 [submodule "app/webroot/js/objectid"]
 	path = app/webroot/js/objectid
 	url = git@github.com:justaprogrammer/ObjectId.js.git
+[submodule "libraries/lithium"]
+	path = libraries/lithium
+	url = git@github.com:UnionOfRAD/lithium.git
