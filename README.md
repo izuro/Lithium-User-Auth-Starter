@@ -13,7 +13,12 @@ Surge bootstrap adds:
 ## Installation
 
 - Clone project repo
-	- git clone --recursive https://github.com/izuro/Lithium-User-Auth-Starter.git
+	- Git 2.13 or later:
+		- `git clone --recurse-submodules https://github.com/izuro/Lithium-User-Auth-Starter.git`
+	- Other Git versions
+		- `git clone --recursive https://github.com/izuro/Lithium-User-Auth-Starter.git`
+- For already cloned, get submodules
+	- `git submodule update --init --recursive`
 - chmod -R 0777 app/resources
 - Configure DB connection in app/config/bootstrap/connections.php, replace YOURMONGODATABASENAME
 - Set Path ENV for li3 console
