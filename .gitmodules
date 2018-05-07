@@ -1,4 +1,5 @@
-[submodule "li3-1.1"]
+
+[submodule "lithium-1.1"]
 	path = libraries/lithium
 	url = https://github.com/UnionOfRAD/lithium.git
 	branch = 1.1

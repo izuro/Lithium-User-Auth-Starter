@@ -19,6 +19,8 @@ Surge bootstrap adds:
 		- `git clone --recursive https://github.com/izuro/Lithium-User-Auth-Starter.git`
 - For already cloned, get submodules
 	- `git submodule update --init --recursive`
+- To include fixes for PHP 7.0 & Mongodb
+	- `composer install`
 - chmod -R 0777 app/resources
 - Configure DB connection in app/config/bootstrap/connections.php, replace YOURMONGODATABASENAME
 - Set Path ENV for li3 console
