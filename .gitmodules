@@ -1,6 +1,4 @@
-[submodule "app/webroot/js/objectid"]
-	path = app/webroot/js/objectid
-	url = git@github.com:justaprogrammer/ObjectId.js.git
-[submodule "libraries/lithium"]
+[submodule "li3-1.1"]
 	path = libraries/lithium
-	url = git@github.com:UnionOfRAD/lithium.git
+	url = https://github.com/UnionOfRAD/lithium.git
+	branch = 1.1

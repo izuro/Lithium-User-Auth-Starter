@@ -10,11 +10,15 @@
         {"name": "The Community"}
     ],
     "config": {
-        "vendor-dir": "libraries"
+        "vendor-dir": "libraries",
+        "platform": {
+            "ext-mongo": "1.6.16"
+        }
     },
     "prefer-stable": true,
     "require": {
         "php": ">=5.3.6",
-        "unionofrad/lithium": "1.0.*@RC"
+        "unionofrad/lithium": "1.0.*@RC",
+        "alcaeus/mongo-php-adapter": "^1.1"
     }
 }
