@@ -134,6 +134,8 @@ use lithium\analysis\Logger;
 define('LITHIUM_VENDOR_PATH', dirname(dirname(dirname(__DIR__))). '/vendor');
 
 // Add the composer autoloader if not already done
-require_once(LITHIUM_VENDOR_PATH . '/autoload.php') ;
+if(file_exists(LITHIUM_VENDOR_PATH . '/autoload.php')){
+	require_once(LITHIUM_VENDOR_PATH . '/autoload.php') ;
+}
 
 ?>
