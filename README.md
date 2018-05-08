@@ -21,7 +21,8 @@ Surge bootstrap adds:
 	- `git submodule update --init --recursive`
 - To include fixes for PHP 7.0 & Mongodb
 	- `composer install`
-	- ```
+	- 
+	```
 	Comment out
 	libraries\lithium\data\source\MongoDb.php line 384:
 	$options = [
