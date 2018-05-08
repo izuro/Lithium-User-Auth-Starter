@@ -21,6 +21,16 @@ Surge bootstrap adds:
 	- `git submodule update --init --recursive`
 - To include fixes for PHP 7.0 & Mongodb
 	- `composer install`
+	- ```
+	Comment out
+	libraries\lithium\data\source\MongoDb.php line 384:
+	$options = [
+			'connect' => true,
+			'connectTimeoutMS' => $this->_config['timeout'],
+			// 'replicaSet' => $this->_config['replicaSet'],	//comment out
+		];
+	```
+	
 - chmod -R 0777 app/resources
 - Configure DB connection in app/config/bootstrap/connections.php, replace YOURMONGODATABASENAME
 - Set Path ENV for li3 console
